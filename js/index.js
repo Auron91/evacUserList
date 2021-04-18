@@ -1,9 +1,13 @@
+
+moment.locale('pl')
+let now = moment('20210417T224614');
+const tableRoot = document.getElementById('root');
+document.getElementById('nowTime').innerHTML = moment(now).format('DD.MM.YYYY HH:mm:ss')
+
 $(document).ready(function () {
     $("#userTable").tablesort();
 });
 
-moment.locale('pl')
-let now = moment('20210417T224614');
 
 const sortByTime = (data) => {
     let result = data.sort((a,b) => {
@@ -49,6 +53,4 @@ const renderTableContent = (data) => {
     return rows;
 }
 
-let tableRoot = document.getElementById('root');
-document.getElementById('nowTime').innerHTML = moment(now).format('DD.MM.YYYY HH:mm:ss')
 tableRoot.innerHTML = renderTableContent(sortedData);
