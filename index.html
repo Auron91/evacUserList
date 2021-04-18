@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+        integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>User List</title>
+    <script type="text/javascript" src="/js/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="/js/tablesort.js"></script>
+    <script src="/js/moment-with-locales.min.js"></script>
+</head>
+<!-- Lista obserwowanych użytkowników odświeża się co minutę lub w momencie usunięcia użytkownika
+z listy.
+Lista zawiera dane: Nazwisko, data i godzina wejścia, czas który upłynął od tego momentu. Możliwość
+sortowania po tych danych.
+Dostęp do panelu WWW zabezpieczony za pomocą autoryzacji użytkownik / hasło. -->
+
+<body>
+    <!-- <div class="header container">
+        <div class="header__right">
+            <a href="" class="header__item">Wyloguj</a>
+            <a href="" class="header__item">Pomoc</a>
+        </div>
+    </div> -->
+    <div class="ui menu container">
+        <div class="menu">
+            <div class="item">LOGO</div>
+        </div>
+        <div class="right menu">
+            <div class="item">
+                <div class="ui toggle checkbox">
+                    <input type="checkbox" name="public">
+                    <label>Tryb kontrastowy</label>
+                </div>
+            </div>
+            <a href="" class=" item">
+                Ustawienia
+            </a>
+            <a href="" class="item">Pomoc</a>
+            <a href="" class="item">Wyloguj</a>
+        </div>
+    </div>
+    <div class="ui menu container">
+        <div class="item">Aktualny czas: <span id="nowTime"></span></div>
+        <div class="item">
+            <div class="ui icon input">
+                <input type="text" placeholder="Szukaj...">
+                <i class="search icon"></i>
+            </div>
+        </div>
+        <div class="right menu">
+            <div class="item">
+                <a class="button">
+                    <i class="icon large file pdf outline"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+        <table id="userTable" class="ui sortable striped padded table ">
+            <thead>
+                <tr>
+                    <th class="single line">Nazwisko</th>
+                    <th>Drzwi</th>
+                    <th>Ostatnie wejście</th>
+                    <th>Czas w pracy</th>
+                    <th>Usuń z listy</th>
+                </tr>
+            </thead>
+            <tbody id=root>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="5">
+                        <div class="ui right floated pagination menu">
+                            <a class="icon item">
+                                <i class="left chevron icon"></i>
+                            </a>
+                            <a class="item">1</a>
+                            <a class="item">2</a>
+                            <a class="item">3</a>
+                            <a class="item">4</a>
+                            <a class="icon item">
+                                <i class="right chevron icon"></i>
+                            </a>
+                        </div>
+                    </th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+<script src="js/users.js"></script>
+<script src="js/index.js"></script>
+
+</html>
