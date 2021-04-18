@@ -1,11 +1,23 @@
 $(document).ready(function () {
     $("#userTable").tablesort();
 });
+
 moment.locale('pl')
 let now = moment('20210417T224614');
 
+const sortByTime = (data) => {
+    let result = data.sort((a,b) => {
+        return ((a.lastEntry.entryTime > b.lastEntry.entryTime) ? 1 : ((b.lastEntry.entryTime > a.lastEntry.entryTime) ? -1 : 0))
+      })
+      return result
+}
+
+let sortedData = sortByTime(dataJSON)
+
+
 const handleDelete = (id) => {
-    console.log(id);
+    let elementToDelete = document.getElementById(id)
+    tableRoot.removeChild(elementToDelete)
 }
 
 const renderTableContent = (data) => {
@@ -31,7 +43,7 @@ const renderTableContent = (data) => {
         </td>
         `
 
-        return `<tr class="${className}">${tds}</tr>`
+        return `<tr class="${className}" id=${user._id}>${tds}</tr>`
     }).join('')
 
     return rows;
@@ -39,4 +51,4 @@ const renderTableContent = (data) => {
 
 let tableRoot = document.getElementById('root');
 document.getElementById('nowTime').innerHTML = moment(now).format('DD.MM.YYYY HH:mm:ss')
-tableRoot.innerHTML = renderTableContent(dataJSON);
+tableRoot.innerHTML = renderTableContent(sortedData);
