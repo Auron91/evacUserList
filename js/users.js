@@ -16,7 +16,7 @@ let dataJSON =
       "name": "Dean Talley",
       "age": 35,
       "lastEntry": {
-        "doors": "główne",
+        "doors": "tripody",
         "entryTime": "20210417T002500"
       }
     },
@@ -36,7 +36,7 @@ let dataJSON =
       "name": "Vanessa Sweeney",
       "age": 27,
       "lastEntry": {
-        "doors": "główne",
+        "doors": "tripody",
         "entryTime": "20210417T0814"
       }
     },
@@ -46,7 +46,7 @@ let dataJSON =
       "name": "Waters Banks",
       "age": 25,
       "lastEntry": {
-        "doors": "główne",
+        "doors": "tripody",
         "entryTime": "20210417T1301"
       }
     },
@@ -66,7 +66,7 @@ let dataJSON =
       "name": "Cain Wolfe",
       "age": 39,
       "lastEntry": {
-        "doors": "główne",
+        "doors": "tripody",
         "entryTime": "20210417T1250"
       }
     },
@@ -76,7 +76,7 @@ let dataJSON =
       "name": "Morris Rose",
       "age": 26,
       "lastEntry": {
-        "doors": "główne",
+        "doors": "tripody",
         "entryTime": "20210417T0228"
       }
     },
@@ -146,7 +146,7 @@ let dataJSON =
       "name": "Denise Franks",
       "age": 37,
       "lastEntry": {
-        "doors": "główne",
+        "doors": "tripody",
         "entryTime": "20210417T1412"
       }
     },
@@ -156,7 +156,7 @@ let dataJSON =
       "name": "Ina Lane",
       "age": 37,
       "lastEntry": {
-        "doors": "główne",
+        "doors": "tripody",
         "entryTime": "20210417T0755"
       }
     },
@@ -166,7 +166,7 @@ let dataJSON =
       "name": "Johnson Webster",
       "age": 37,
       "lastEntry": {
-        "doors": "główne",
+        "doors": "tripody",
         "entryTime": "20210417T1419"
       }
     },
@@ -176,7 +176,7 @@ let dataJSON =
       "name": "Misty Williams",
       "age": 33,
       "lastEntry": {
-        "doors": "główne",
+        "doors": "tripody",
         "entryTime": "20210417T0723"
       }
     },
