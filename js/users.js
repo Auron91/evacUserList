@@ -226,7 +226,7 @@ let dataJSON =
       "name": "Shana Salazar",
       "age": 36,
       "lastEntry": {
-        "doors": "główne",
+        "doors": "tripody",
         "entryTime": "20210417T0902"
       }
     },
