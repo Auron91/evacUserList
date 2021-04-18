@@ -47,7 +47,7 @@ const renderTableContent = (data) => {
         </td>
         `
 
-        return `<tr class="${className}" id=${user._id}>${tds}</tr>`
+        return `<tr id="${user._id}" class="${className}" >${tds}</tr>`
     }).join('')
 
     return rows;
