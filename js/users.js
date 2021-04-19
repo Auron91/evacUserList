@@ -27,7 +27,7 @@ let dataJSON =
       "age": 35,
       "lastEntry": {
         "doors": "parking",
-        "entryTime": "20210417T0127"
+        "entryTime": "20210417T012700"
       }
     },
     {
@@ -37,7 +37,7 @@ let dataJSON =
       "age": 27,
       "lastEntry": {
         "doors": "tripody",
-        "entryTime": "20210417T0814"
+        "entryTime": "20210417T081400"
       }
     },
     {
@@ -47,7 +47,7 @@ let dataJSON =
       "age": 25,
       "lastEntry": {
         "doors": "tripody",
-        "entryTime": "20210417T1301"
+        "entryTime": "20210417T130100"
       }
     },
     {
@@ -57,7 +57,7 @@ let dataJSON =
       "age": 27,
       "lastEntry": {
         "doors": "parking",
-        "entryTime": "20210417T1629"
+        "entryTime": "20210417T162900"
       }
     },
     {
@@ -67,7 +67,7 @@ let dataJSON =
       "age": 39,
       "lastEntry": {
         "doors": "tripody",
-        "entryTime": "20210417T1250"
+        "entryTime": "20210417T125000"
       }
     },
     {
@@ -77,7 +77,7 @@ let dataJSON =
       "age": 26,
       "lastEntry": {
         "doors": "tripody",
-        "entryTime": "20210417T0228"
+        "entryTime": "20210417T022800"
       }
     },
     {
@@ -87,7 +87,7 @@ let dataJSON =
       "age": 26,
       "lastEntry": {
         "doors": "parking",
-        "entryTime": "20210417T0755"
+        "entryTime": "20210417T075500"
       }
     },
     {
@@ -97,7 +97,7 @@ let dataJSON =
       "age": 24,
       "lastEntry": {
         "doors": "główne",
-        "entryTime": "20210417T0711"
+        "entryTime": "20210417T071100"
       }
     },
     {
@@ -107,7 +107,7 @@ let dataJSON =
       "age": 37,
       "lastEntry": {
         "doors": "parking",
-        "entryTime": "20210417T0349"
+        "entryTime": "20210417T034900"
       }
     },
     {
@@ -117,7 +117,7 @@ let dataJSON =
       "age": 30,
       "lastEntry": {
         "doors": "główne",
-        "entryTime": "20210417T1034"
+        "entryTime": "20210417T103400"
       }
     },
     {
@@ -127,7 +127,7 @@ let dataJSON =
       "age": 24,
       "lastEntry": {
         "doors": "główne",
-        "entryTime": "20210417T0825"
+        "entryTime": "20210417T082500"
       }
     },
     {
@@ -137,7 +137,7 @@ let dataJSON =
       "age": 23,
       "lastEntry": {
         "doors": "główne",
-        "entryTime": "20210417T1238"
+        "entryTime": "20210417T123800"
       }
     },
     {
@@ -147,7 +147,7 @@ let dataJSON =
       "age": 37,
       "lastEntry": {
         "doors": "tripody",
-        "entryTime": "20210417T1412"
+        "entryTime": "20210417T141200"
       }
     },
     {
@@ -167,7 +167,7 @@ let dataJSON =
       "age": 37,
       "lastEntry": {
         "doors": "tripody",
-        "entryTime": "20210417T1419"
+        "entryTime": "20210417T141900"
       }
     },
     {
@@ -177,7 +177,7 @@ let dataJSON =
       "age": 33,
       "lastEntry": {
         "doors": "tripody",
-        "entryTime": "20210417T0723"
+        "entryTime": "20210417T072300"
       }
     },
     {
@@ -187,7 +187,7 @@ let dataJSON =
       "age": 35,
       "lastEntry": {
         "doors": "główne",
-        "entryTime": "20210417T1541"
+        "entryTime": "20210417T154100"
       }
     },
     {
@@ -197,7 +197,7 @@ let dataJSON =
       "age": 30,
       "lastEntry": {
         "doors": "główne",
-        "entryTime": "20210417T0458"
+        "entryTime": "20210417T045800"
       }
     },
     {
@@ -207,7 +207,7 @@ let dataJSON =
       "age": 33,
       "lastEntry": {
         "doors": "główne",
-        "entryTime": "20210417T0702"
+        "entryTime": "20210417T070200"
       }
     },
     {
@@ -217,7 +217,7 @@ let dataJSON =
       "age": 29,
       "lastEntry": {
         "doors": "główne",
-        "entryTime": "20210417T1556"
+        "entryTime": "20210417T155600"
       }
     },
     {
@@ -227,7 +227,7 @@ let dataJSON =
       "age": 36,
       "lastEntry": {
         "doors": "tripody",
-        "entryTime": "20210417T0902"
+        "entryTime": "20210417T090200"
       }
     },
     {
@@ -237,7 +237,7 @@ let dataJSON =
       "age": 28,
       "lastEntry": {
         "doors": "tripod",
-        "entryTime": "20210417T0254"
+        "entryTime": "20210417T025400"
       }
     },
     {
@@ -247,7 +247,7 @@ let dataJSON =
       "age": 35,
       "lastEntry": {
         "doors": "główne",
-        "entryTime": "20210417T0758"
+        "entryTime": "20210417T075800"
       }
     }
   ]

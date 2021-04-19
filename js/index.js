@@ -1,6 +1,6 @@
 
 moment.locale('pl')
-let now = moment('20210417T224614');
+let now = moment('20210418T124614');
 const tableRoot = document.getElementById('root');
 document.getElementById('nowTime').innerHTML = moment(now).format('DD.MM.YYYY HH:mm:ss')
 
@@ -27,9 +27,10 @@ const handleDelete = (id) => {
 const renderTableContent = (data) => {
     let rows = data.map(user => {
         let entryTime = moment(user.lastEntry.entryTime).format('DD.MM.YYYY HH:mm')
-        let diffrence = now.diff(user.lastEntry.entryTime)
-        let inWork = moment.utc(diffrence).format('HH:mm')
-        if(diffrence > 43200000) {
+        let diffrence = now.diff(user.lastEntry.entryTime);
+        let diffrenceHours = now.diff(user.lastEntry.entryTime,'hours')
+        let inWork = `${diffrenceHours} godzin`;
+        if(diffrence > 86400000) {
             className="error"
         } else {
             className=""
